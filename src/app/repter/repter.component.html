@@ -1,1 +1,18 @@
 <p>repter works!</p>
+
+<table>
+    <thead>
+        <th>Id</th>
+        <th>To</th>
+        <th>Departs</th>
+        <th>Terminal</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let flight of flights">
+            <td>{{flight.id}}</td>
+            <td>{{flight.hova}}</td>
+            <td>{{flight.indulas}}</td>
+            <td>{{flight.terminal}}</td>
+        </tr>
+    </tbody>
+</table>
